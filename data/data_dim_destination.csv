@@ -1,0 +1,28 @@
+destination_id,country,city
+DEST_1,Netherlands,Amsterdam
+DEST_2,Greece,Athens
+DEST_3,New Zealand,Auckland
+DEST_4,Indonesia,Bali
+DEST_5,Thailand,Bangkok
+DEST_6,Spain,Barcelona
+DEST_7,Germany,Berlin
+DEST_8,Egypt,Cairo
+DEST_9,Mexico,Cancun
+DEST_10,South Africa,Cape Town
+DEST_11,United Arab Emirates,Dubai
+DEST_12,Scotland,Edinburgh
+DEST_13,Hawaii,Honolulu
+DEST_14,UK,London
+DEST_15,USA,Los Angeles
+DEST_16,Morocco,Marrakech
+DEST_17,USA,New York
+DEST_18,France,Paris
+DEST_19,Cambodia,Phnom Penh
+DEST_20,Thailand,Phuket
+DEST_21,Brazil,Rio de Janeiro
+DEST_22,Italy,Rome
+DEST_23,Greece,Santorini
+DEST_24,South Korea,Seoul
+DEST_25,Australia,Sydney
+DEST_26,Japan,Tokyo
+DEST_27,Canada,Vancouver

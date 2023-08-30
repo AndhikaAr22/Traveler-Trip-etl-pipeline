@@ -1,0 +1,37 @@
+Transportation_id,type,cost
+TRAN_1,Bus,$100
+TRAN_2,Bus,$50
+TRAN_3,Bus,$75
+TRAN_4,Car,"$2,000"
+TRAN_5,Car,$300
+TRAN_6,Car rental,$200
+TRAN_7,Car rental,$250
+TRAN_8,Car rental,$300
+TRAN_9,Car rental,$400
+TRAN_10,Car rental,$500
+TRAN_11,Ferry,$150
+TRAN_12,Plane,"$1,000"
+TRAN_13,Plane,"$1,200"
+TRAN_14,Plane,"$1,500"
+TRAN_15,Plane,"$2,500"
+TRAN_16,Plane,"$3,000"
+TRAN_17,Plane,$350
+TRAN_18,Plane,$400
+TRAN_19,Plane,$500
+TRAN_20,Plane,$600
+TRAN_21,Plane,$700
+TRAN_22,Plane,$800
+TRAN_23,Plane,$900
+TRAN_24,Subway,$20
+TRAN_25,Train,"$1,000"
+TRAN_26,Train,"$1,500"
+TRAN_27,Train,$100
+TRAN_28,Train,$120
+TRAN_29,Train,$150
+TRAN_30,Train,"$2,500"
+TRAN_31,Train,$200
+TRAN_32,Train,$250
+TRAN_33,Train,$300
+TRAN_34,Train,$400
+TRAN_35,Train,$500
+TRAN_36,Train,$80
