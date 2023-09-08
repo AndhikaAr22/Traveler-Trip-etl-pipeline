@@ -12,7 +12,7 @@ with open('config.json', 'r') as cred:
     credential = json.load(cred)
 
 output_directory = '/home/andhika/project_trip_bp/data'
-# ini fix
+
 def get_data():
     mysql_aunt = MYSQL(credential['mysql_lake'])
     engine_mysql = mysql_aunt.connect()
@@ -24,8 +24,8 @@ def get_data():
     
     def format_currency(amount):
         if amount is None:
-            return None  # Biarkan None jika datanya None
-        amount = str(amount)  # Konversi ke string jika belum
+            return None  
+        amount = str(amount)  # Konversi ke string 
         amount = amount.replace('$', '')  # Hapus tanda dolar yang mungkin sudah ada
         amount = amount.replace(',', '')  # Hapus koma yang mungkin sudah ada
         amount = ''.join(filter(str.isdigit, amount))  # Hanya ambil karakter angka
@@ -89,7 +89,7 @@ def data_dim_traveler():
 
 
     df_dim_traveler.dropna(inplace=True)
-    # menghapus data yang double
+    
     
     # mengubah tipe data kolom age menjadi int
     df_dim_traveler['age'] = df_dim_traveler['age'].astype(int)
@@ -110,7 +110,7 @@ def data_dim_traveler():
     output_file = os.path.join(output_directory, 'data_dim_traveler.csv')
 
     df_dim_traveler.to_csv(output_file, index=False)
-    # # Menyimpan DataFrame ke file CSV
+   
     
     return df_dim_traveler
 

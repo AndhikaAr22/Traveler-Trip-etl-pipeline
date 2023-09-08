@@ -118,3 +118,13 @@ def insert_fact_trip():
     """
 
 # report
+def create_dashboard():
+    return """
+    select
+        to_char(start_date, 'month') as bulan,
+        count(*) as visit_month
+    from dim_time dt  
+    group by 1
+    order by 2 desc ;
+    """
+
